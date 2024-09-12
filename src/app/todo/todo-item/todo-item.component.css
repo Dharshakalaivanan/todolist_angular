@@ -1,0 +1,38 @@
+:host {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  .task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  .task.completed {
+    text-decoration: line-through;
+    color: #888;
+    background-color: #e0e0e0;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 4px;
+    margin-left: 10px;
+  }
+  
+  .delete-button:hover {
+    background-color: #a71d2a;
+  }
+  

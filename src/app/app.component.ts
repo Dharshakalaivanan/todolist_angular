@@ -11,5 +11,5 @@ import { TodoComponent } from './todo/todo.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'anugular';
+  
 }
